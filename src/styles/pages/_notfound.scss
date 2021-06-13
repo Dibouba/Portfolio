@@ -1,0 +1,25 @@
+.notFound {
+    /*Traitement sur le contenu général*/
+    @include verticalcenter;
+    height: 95vh;
+    max-width: 1200px;
+    background: $color-3;
+    border-radius: $bordorRadius;
+    text-align: center;
+    /*Mise en forme de la paragraphe*/
+    h3 {
+      margin-bottom: 3rem;
+      font-size: 2rem;
+    }
+    /*Traitement du lien de redirection*/
+    a {
+      padding: 1rem 2rem;
+      border-radius: $bordorRadius;
+      background: $color-5;
+      transition: .2s;
+  
+      &:hover {
+        background: $color-4;
+      }
+    }
+  }
